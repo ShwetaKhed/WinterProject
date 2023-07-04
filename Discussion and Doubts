@@ -1,0 +1,8 @@
+Problems:
+1. We should be able to turn off the battery at any state. - Solved
+2. The battery empty state is redundancy
+3. We should be able to charge and discharge the battery at the same time - This is not possible, eliminate condition
+
+Doubts?:
+1. FaultDetected - from all states, can it go to batteryBroken?
+2. BatteryFull - to discharging ??
